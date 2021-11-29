@@ -1,6 +1,6 @@
 const dotenv = require("dotenv").config();
 const express = require("express");
-const port = 4000 || process.env.PORT;
+const port = process.env.PORT || 4000;
 
 // Routes import
 const authRouter = require("./routes/auth/auth.routes"); // auth.routes.js
