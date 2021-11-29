@@ -1,0 +1,20 @@
+{
+  "name": "sparklebackend",
+  "version": "1.0.0",
+  "description": "genius backend",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ejooremmanuel/sparklebackend.git"
+  },
+  "author": "Ejoor Emmanuel",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ejooremmanuel/sparklebackend/issues"
+  },
+  "homepage": "https://github.com/ejooremmanuel/sparklebackend#readme"
+}
