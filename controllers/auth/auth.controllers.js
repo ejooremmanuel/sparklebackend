@@ -1,13 +1,12 @@
 const User = require("../../models/User");
 const { hashSync, compareSync } = require("bcryptjs");
 const { sign } = require("jsonwebtoken");
-// const cookieSession = require("cookie-session");
 // @route POST api/auth/register
 
 const signup = async (req, res) => {
   try {
     const { name, username, password, answer1, answer2, answer3 } = req.body;
-    if (!name || !username || !password || !answer1 || !answer2 || !answer3) {
+    if (!name || !username || !password) {
       return res
         .status(400)
         .json({ success: false, msg: "Please fill all fields" });
